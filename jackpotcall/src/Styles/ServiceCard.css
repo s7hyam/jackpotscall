@@ -1,0 +1,21 @@
+.learn-more-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    color: #6428c7;
+    position: relative;
+    padding-right: 24px;
+    font-size: 18px;
+}
+
+.learn-more-btn span {
+    position: absolute;
+    right: 5px;
+    transition: .2s linear;
+    top: 6px;
+}
+
+.learn-more-btn:hover span {
+    right: 0;
+}
